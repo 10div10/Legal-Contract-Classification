@@ -1,0 +1,8 @@
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.6
+xgboost>=3.0
+matplotlib>=3.9
+joblib>=1.4
+requests>=2.32
+PyMuPDF>=1.25

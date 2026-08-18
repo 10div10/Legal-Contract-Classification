@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+
+# Generated artifacts
+models/*.joblib
+data/master_clauses.csv
+data/legal_contracts_7class.csv

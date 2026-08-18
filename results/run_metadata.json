@@ -1,0 +1,19 @@
+{
+  "n_samples": 230,
+  "classes": [
+    "COLLABORATION_AGREEMENT",
+    "DEVELOPMENT_AGREEMENT",
+    "DISTRIBUTOR_AGREEMENT",
+    "LICENSE_AGREEMENT",
+    "MAINTENANCE_AGREEMENT",
+    "SERVICE_AGREEMENT",
+    "SPONSORSHIP_AGREEMENT"
+  ],
+  "cv": "Stratified 5-fold, shuffled, random_state=42",
+  "best_model": "Linear SVM + word/char TF-IDF",
+  "best_cv_accuracy_mean": 0.7,
+  "best_cv_accuracy_std": 0.04642207935665788,
+  "best_cv_macro_f1_mean": 0.6984481303256181,
+  "best_cv_macro_f1_std": 0.050433682961598704,
+  "note": "Metrics generated from CUAD-derived clause-context proxy dataset. Filename/title excluded from model features."
+}
