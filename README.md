@@ -1,8 +1,30 @@
-# Legal Contract Type Classification — Classical ML Baselines
+# ⚖️ Legal Contract Type Classification — Classical ML Baselines
 
-A reproducible legal-NLP baseline that classifies commercial contract text using TF-IDF and classical machine-learning models.
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/XGBoost-Baseline-1893F8" alt="XGBoost" />
+  <img src="https://img.shields.io/badge/NLP-TF--IDF-4B8BBE" alt="NLP TF-IDF" />
+  <img src="https://img.shields.io/badge/Classes-7-6A5ACD" alt="7 classes" />
+  <img src="https://img.shields.io/badge/CV-5--Fold-2E8B57" alt="5-fold CV" />
+  <img src="https://img.shields.io/badge/Best%20Macro%20F1-69.84%25-brightgreen" alt="Best Macro F1" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" />
+</p>
 
-The project compares six standard ML classifiers under the same stratified 5-fold cross-validation setup, then tests an enhanced word + character TF-IDF Linear SVM baseline.
+A reproducible **legal NLP + classical machine learning** project that classifies commercial contracts into seven agreement types using TF-IDF features and multiple baseline classifiers.
+
+The project compares standard ML models under the same **stratified 5-fold cross-validation** setup and improves the strongest baseline with combined **word + character TF-IDF features and Linear SVM**.
+
+### ✨ Highlights
+
+- ⚖️ Real commercial-contract data derived from **CUAD**
+- 🧠 Comparison of **7 classical ML baselines**
+- 🔤 Word and character **TF-IDF** feature engineering
+- 📊 Stratified **5-fold cross-validation** with Macro F1 evaluation
+- 🏆 Best baseline: **Linear SVM + word/character TF-IDF — 69.84% Macro F1**
+- 📄 CLI inference for **PDF and TXT contracts**
+- 🔒 No filename/title fields used as model input
+
 
 ## Contract classes
 
@@ -166,3 +188,4 @@ This repository is an ML/NLP research project. It does not provide legal advice 
 ## Licensing
 
 Repository code is MIT licensed. CUAD data is separately licensed under CC BY 4.0 and must retain its required attribution.
+
